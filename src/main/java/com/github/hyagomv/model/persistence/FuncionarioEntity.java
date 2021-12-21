@@ -7,6 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.github.hyagomv.model.Funcionario;
+
 @Entity
 @Table(name = "funcionario")
 public class FuncionarioEntity {
@@ -15,7 +17,7 @@ public class FuncionarioEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(length = 100, nullable = false)
+	//@Column(length = 80, nullable = false)
 	private String nome;
 
 	
@@ -23,8 +25,8 @@ public class FuncionarioEntity {
 		
 	}
 	
-	public FuncionarioEntity(String nome) {
-		this.nome = nome;
+	public FuncionarioEntity(Funcionario funcionario) {
+		this.nome = funcionario.getNome();
 	}
 	
 

@@ -9,7 +9,7 @@ public class Funcionario {
 	}
 
 	public Funcionario(String nome) {
-		this.nome = nome;
+		setNome(nome);
 	}
 
 	public String getNome() {
@@ -17,6 +17,10 @@ public class Funcionario {
 	}
 
 	public void setNome(String nome) {
+		if(nome.length() < 20)
+			throw new IllegalArgumentException("O nome do funcionário e muito pequeno");
+		if (nome.length() > 80)
+			throw new IllegalArgumentException("O nome do funcionário e muito grande");
 		this.nome = nome;
 	}
 

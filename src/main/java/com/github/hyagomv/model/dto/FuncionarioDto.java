@@ -6,6 +6,10 @@ import com.github.hyagomv.model.persistence.FuncionarioEntity;
 public class FuncionarioDto {
 
 	private String nome;
+	
+	public FuncionarioDto() {
+
+	}
 
 	public FuncionarioDto(FuncionarioEntity entity) {
 		this.nome = entity.getNome();
