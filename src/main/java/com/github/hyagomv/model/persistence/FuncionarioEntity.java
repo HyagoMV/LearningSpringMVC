@@ -17,7 +17,7 @@ public class FuncionarioEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	//@Column(length = 80, nullable = false)
+	@Column(length = 80, nullable = false)
 	private String nome;
 
 	
