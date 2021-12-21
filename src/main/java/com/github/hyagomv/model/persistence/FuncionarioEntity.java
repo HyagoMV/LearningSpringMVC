@@ -7,8 +7,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.github.hyagomv.model.Funcionario;
-
 @Entity
 @Table(name = "funcionario")
 public class FuncionarioEntity {
