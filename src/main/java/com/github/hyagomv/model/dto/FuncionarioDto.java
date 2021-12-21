@@ -1,6 +1,6 @@
 package com.github.hyagomv.model.dto;
 
-import com.github.hyagomv.model.Funcionario;
+import com.github.hyagomv.domain.Funcionario;
 import com.github.hyagomv.model.persistence.FuncionarioEntity;
 
 public class FuncionarioDto {

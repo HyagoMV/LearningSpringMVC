@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.github.hyagomv.application.FuncionarioSerive;
+import com.github.hyagomv.app.FuncionarioSerive;
 import com.github.hyagomv.model.dto.FuncionarioDto;
 import com.github.hyagomv.model.persistence.FuncionarioEntity;
 import com.github.hyagomv.model.persistence.FuncionarioEntityRepository;

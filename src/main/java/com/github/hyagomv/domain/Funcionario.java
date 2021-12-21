@@ -1,4 +1,4 @@
-package com.github.hyagomv.model;
+package com.github.hyagomv.domain;
 
 public class Funcionario {
 

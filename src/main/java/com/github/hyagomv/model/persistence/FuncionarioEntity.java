@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.github.hyagomv.model.Funcionario;
+import com.github.hyagomv.domain.Funcionario;
 
 @Entity
 @Table(name = "funcionario")

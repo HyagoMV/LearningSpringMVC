@@ -1,9 +1,9 @@
-package com.github.hyagomv.application;
+package com.github.hyagomv.app;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.github.hyagomv.model.Funcionario;
+import com.github.hyagomv.domain.Funcionario;
 import com.github.hyagomv.model.dto.FuncionarioDto;
 import com.github.hyagomv.model.persistence.FuncionarioEntity;
 import com.github.hyagomv.model.persistence.FuncionarioEntityRepository;
