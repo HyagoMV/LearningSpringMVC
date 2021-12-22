@@ -1,9 +1,8 @@
 package com.github.hyagomv.domain.a;
 
-public enum Unidade {
-	UN, 
-	KG, 
-	M, 
-	LT, 
-	SEM_UNIDADE
+public class Unidade {
+	private String nome;
+	private String descricao;
+	private UnidadeType type;
+	
 }
